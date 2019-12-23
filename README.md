@@ -6,8 +6,8 @@ Additionally added the following:
 
 1. Created utility for Backend Database validation with PostgresQL
 
-2. Added "Surefire Plugin" in POM.xml to execute the test scripts using testng xml files(regression.xml/smoke.xml) with maven batch commands
-   Reference: <a href="https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html"> Maven SureFire Plugin </a>
+2. Added "Surefire Plugin" in POM.xml to execute the test scripts using testng xml files(regression.xml/smoke.xml) with maven batch commands.
+  Please refer this: <a href="https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html"> Maven SureFire Plugin </a> for more detail.
 
 Notes:
 
@@ -27,7 +27,3 @@ Maven Batch Commands:
 4. mvn test -P<profile id> -- Switch the tests with Maven Profiling
    ex: In our project, we have 2 profile ids: Regression and Smoke which refers
      regression.xml(points to regression scripts) and smoke.xml(points to smoke test scripts) respectively
-
-
-
-
