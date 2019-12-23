@@ -1,13 +1,13 @@
 Automate the web application using Selenium Web Driver with Java
 
-As a part of this wonderful course (https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/) from Angie jones and Applitools team, executed the given practical examples.
+As a part of this wonderful course <a href="https://testautomationu.applitools.com/selenium-webdriver-tutorial-java/"> Selenium WebDriver with Java</a> from Angie jones and Applitools team, executed the given practical examples.
 
 Additionally added the following:
 
 1. Created utility for Backend Database validation with PostgresQL
 
 2. Added "Surefire Plugin" in POM.xml to execute the test scripts using testng xml files(regression.xml/smoke.xml) with maven batch commands
-   Reference: https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html
+   Reference: <a href="https://maven.apache.org/surefire/maven-surefire-plugin/examples/testng.html"> Maven SureFire Plugin </a>
 
 Notes:
 
